@@ -56,3 +56,34 @@ nav button{
   color: white;
   border: none;
 }
+
+.action{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 330px;
+  max-width: 1140px;
+  margin: 100px auto;
+  border: none
+}
+
+.text-item{
+  
+  width: 517px;
+  height: 203;  
+}
+.text-item h6{
+  font-size: 24px;
+  color: rgba(88, 88, 88, 0.612);
+}
+.text-item button{
+  height: 48px ;
+  width: 229px;
+  margin-bottom: 20px;
+}
+div img{
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+}
+
