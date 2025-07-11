@@ -1,0 +1,58 @@
+
+/*nav styles */
+
+.header{
+  background-image: url('../Assets/Hero-bg.png');
+  max-width: 1440px;
+  height: 698px;
+  margin: 0 auto;
+  
+}
+
+
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  height: 100px;
+  margin: 0 150px ;
+  color: blue;
+}
+
+
+.banner{
+   text-align: center;
+   max-width: 905px;
+   height: 237px;
+   margin: 309px 270px  152px  ;
+   
+}
+div h3{
+  font-size: 60px;
+  nav
+}
+
+div button{
+  width: 174px ;
+  height: 48px ;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+nav h1{
+  font-size: 40px;
+
+}
+
+nav button{
+  width: 132px;
+  height: 48px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
