@@ -34,14 +34,7 @@ div h3{
   nav
 }
 
-div button{
-  width: 174px ;
-  height: 48px ;
-  border-radius: 10px;
-  background-color: blue;
-  color: white;
-  border: none;
-}
+
 
 nav h1{
   font-size: 40px;
@@ -49,15 +42,6 @@ nav h1{
 }
 
 
-nav button {
-  
-  width: 132px;
-  height: 48px;
-  border-radius: 10px;
-  background-color: blue;
-  color: white;
-  border: none;
-}
 
 .action{
   background-color: #F5F8FF;
@@ -79,10 +63,7 @@ nav button {
   font-size: 24px;
   color: rgba(88, 88, 88, 0.612);
 }
-.text-item button{
-  height: 48px ;
-  width: 229px;
-  margin-bottom: 50px;
+
 }
 div img{
   width: 403px;
@@ -128,6 +109,55 @@ div img{
 .card p{
   color: rgb(116, 114, 114);
 }
+.focus-section {
+    text-align: center;
+   max-width: 1140px; 
+     margin: auto;
+   padding: 20px;
+ }
+
+.focus-section h2 {
+    font-size: 2.8em; 
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+ }
+
+.focus-section p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 30px;
+    
+ }
+
+.focus-button {
+   
+  background-color: blue;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 10px; 
+   
+  font-size: 1.1em;
+  font-weight: bold;
+            
+  border: none; 
+  cursor: pointer; 
+  margin-bottom: 50px; 
+}
+
+.focus-button:hover {
+  background-color: yellowgreen; 
+ }
+
+
+  
+.focus-image{
+  width: 100%;
+   object-fit: cover;  
+   
+   border-radius: 20px; 
+ }
+
 
 .container-2{
   display: flex;
