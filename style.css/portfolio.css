@@ -126,3 +126,33 @@ div img{
 .card p{
   color: rgb(116, 114, 114);
 }
+
+.container-2{
+  display: flex;
+  background-color: #E5E7FE;
+  border-radius: 10px;
+  padding: 40px;
+  justify-content: space-between;
+  
+  max-width: 1140px;
+  margin: auto;
+}
+
+.left-section{
+ margin: auto 0;  
+}
+
+.form-group{
+  margin-bottom: 20px;
+}
+.form-group input{
+  border-radius: 6px;
+  border: #E5E7FE;
+  font-size: 1em;
+  width: 100%;
+  padding: 12px 15px;
+}
+.form-group textarea{
+  border-radius: 6px;
+  padding: 6px 60px;
+}
