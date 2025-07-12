@@ -48,7 +48,9 @@ nav h1{
 
 }
 
-nav button{
+
+nav button {
+  
   width: 132px;
   height: 48px;
   border-radius: 10px;
@@ -156,3 +158,51 @@ div img{
   border-radius: 6px;
   padding: 6px 60px;
 }
+
+.footer {
+    background-color: #f8f8f8; 
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 1140px;
+
+    margin: auto;
+            
+  }
+
+  .footer-logo {
+    font-size: 2.5em; 
+   font-weight: bold;
+   color: #4169E1; 
+   margin-bottom: 10px;
+  
+ }
+   
+
+
+  .footer-subtitle {
+    font-size: 0.9em;
+     color: #777;
+    max-width: 600px;
+    margin: 0 auto 30px auto; 
+    
+ }
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+  }
+
+.footer-nav li a {
+    text-decoration: none;
+    color: #777; 
+    font-size: 1em;
+    
+  }
+
+  .footer-nav li a:hover {
+    color: #4169E1;
+  }
